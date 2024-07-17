@@ -14,9 +14,25 @@ The social website is a platform where users can connect with each other, share 
 - **Post Creation:** Users can create, edit, and delete posts.
 - **Post Interaction:** Users can like and comment on posts.
 - **Activity Stream:** Users can see a stream of activities, such as new posts from users they follow.
-- **Notifications:** Users receive notifications for new followers, likes, and comments.
+- **Notifications:** Users receive notifications for new followers, likes, and bookmarking images.
 
 ## Requirements
 
 - Python 3.10 or higher
-- Django 4.0r
+- Django 4.0
+- Redis
+
+## Libraries and Technologies Used
+
+- **Django:** The web framework used to build the project.
+- **SQLite:** The database used to store user and post data.
+- **Pillow:** For handling image uploads.
+- **django-allauth:** For handling user authentication, registration, and social logins.
+- **django-activity-stream:** For generating the activity feed.
+- **django-extensions:** For additional Django management commands and utilities.
+- **easy-thumbnails:** For creating and managing image thumbnails.
+- **Redis:** For caching and message brokering to improve performance and scalability.
+- **JavaScript:** For enhancing the user experience on the front-end.
+- **werkzeug:** A comprehensive WSGI web application library.
+- **pyOpenSSL:** Python wrapper around a subset of the OpenSSL library's functionality.
+- **cryptography:** Provides cryptographic recipes and primitives to Python developers.
