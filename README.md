@@ -9,6 +9,7 @@ The social website is a platform where users can connect with each other, share 
 ## Features
 
 - **User Authentication:** Users can register, log in, log out, change password, and reset password.
+- **Social Login:** Users can authenticate using social accounts (e.g., Google, Twitter and Github) in addition to email-based authentication.
 - **Profile Management:** Users can create and edit their profiles, including uploading profile pictures.
 - **Follow System:** Users can follow and unfollow other users to see their posts in their feed.
 - **Post Creation:** Users can create, edit, and delete posts.
@@ -93,3 +94,35 @@ python manage.py runserver_plus --cert-file cert.crt
 
 Open your web browser and go to https://127.0.0.1:8000/account/ and Your browser will show a security warning because you are using a self-generated certificate instead
 of a certificate trusted by a Certification Authority (CA). In this case, click on Advanced and then click on Proceed to 127.0.0.1 (unsafe).
+
+## Redis intallation Using Docker
+
+### Installing Docker
+
+1. **Download Docker**: Visit [Docker's official website](https://www.docker.com/get-started) and download Docker for your operating system.
+   
+2. **Install Docker**: Follow the installation instructions for your operating system.
+
+3. **Verify Installation**: Open a terminal or command prompt and run the following command to verify Docker installation:
+
+```bash
+docker --version
+```
+
+### Pulling and Running Redis
+
+1. **Pull Redis Image**: Open a terminal or command prompt and execute the following command to pull the latest Redis image from Docker Hub:
+
+```bash
+docker pull redis
+```
+
+2. **Run Redis Container**: Once the image is downloaded, start a Redis container by running:
+
+```bash
+docker run -it --rm --name redis -p 6379:6379 redis
+```
+
+## Application Snapshots
+
+![Django Chartjs Snapshot](https://github.com/AflaxCade/Django-with-chart.js/blob/main/Screenshot%201.png)
