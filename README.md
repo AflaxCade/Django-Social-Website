@@ -125,7 +125,7 @@ docker run -it --rm --name redis -p 6379:6379 redis
 
 ## Application Snapshots
 
-![Django Chartjs Snapshot](https://github.com/AflaxCade/Django-with-chart.js/blob/main/Screenshot%201.png)
+![Login](https://github.com/AflaxCade/social-website/blob/main/Snapshots/login.png)
 
 # Note
 
