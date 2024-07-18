@@ -126,6 +126,12 @@ docker run -it --rm --name redis -p 6379:6379 redis
 ## Application Snapshots
 
 ![Login](https://github.com/AflaxCade/social-website/blob/main/Snapshots/login.png)
+![Register](https://github.com/AflaxCade/social-website/blob/main/Snapshots/register.png)
+![Profile](https://github.com/AflaxCade/social-website/blob/main/Snapshots/Edit%20account.png)
+![changepassword](https://github.com/AflaxCade/social-website/blob/main/Snapshots/change%20password.png)
+![forgotpassword](https://github.com/AflaxCade/social-website/blob/main/Snapshots/forgot%20password.png)
+![users](https://github.com/AflaxCade/social-website/blob/main/Snapshots/users.png)
+![dashboard](https://github.com/AflaxCade/social-website/blob/main/Snapshots/dashboard.png)
 
 # Note
 
