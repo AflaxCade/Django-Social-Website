@@ -125,18 +125,18 @@ docker run -it --rm --name redis -p 6379:6379 redis
 
 ## Application Snapshots
 
-![Login](https://github.com/AflaxCade/social-website/blob/main/Snapshots/login.png)
-![Register](https://github.com/AflaxCade/social-website/blob/main/Snapshots/register.png)
-![Profile](https://github.com/AflaxCade/social-website/blob/main/Snapshots/Edit%20account.png)
-![changepassword](https://github.com/AflaxCade/social-website/blob/main/Snapshots/change%20password.png)
-![forgotpassword](https://github.com/AflaxCade/social-website/blob/main/Snapshots/forgot%20password.png)
-![users](https://github.com/AflaxCade/social-website/blob/main/Snapshots/users.png)
-![dashboard](https://github.com/AflaxCade/social-website/blob/main/Snapshots/dashboard.png)
-![images](https://github.com/AflaxCade/social-website/blob/main/Snapshots/images.png)
-![imageview](https://github.com/AflaxCade/social-website/blob/main/Snapshots/image%20view.png)
-![bookmarking](https://github.com/AflaxCade/social-website/blob/main/Snapshots/bookmarking%20image.png)
-![adding](https://github.com/AflaxCade/social-website/blob/main/Snapshots/Ading%20image.png)
-![ranks](https://github.com/AflaxCade/social-website/blob/main/Snapshots/Images%20ranking.png)
+![Login](https://github.com/AflaxCade/Django-Social-Website/blob/main/Snapshots/login.png)
+![Register](https://github.com/AflaxCade/Django-Social-Website/blob/main/Snapshots/register.png)
+![Profile](https://github.com/AflaxCade/Django-Social-Website/blob/main/Snapshots/Edit%20account.png)
+![changepassword](https://github.com/AflaxCade/Django-Social-Website/blob/main/Snapshots/change%20password.png)
+![forgotpassword](https://github.com/AflaxCade/Django-Social-Website/blob/main/Snapshots/forgot%20password.png)
+![users](https://github.com/AflaxCade/Django-Social-Website/blob/main/Snapshots/users.png)
+![dashboard](https://github.com/AflaxCade/Django-Social-Website/blob/main/Snapshots/dashboard.png)
+![images](https://github.com/AflaxCade/Django-Social-Website/blob/main/Snapshots/images.png)
+![imageview](https://github.com/AflaxCade/Django-Social-Website/blob/main/Snapshots/image%20view.png)
+![bookmarking](https://github.com/AflaxCade/Django-Social-Website/blob/main/Snapshots/bookmarking%20image.png)
+![adding](https://github.com/AflaxCade/Django-Social-Website/blob/main/Snapshots/Ading%20image.png)
+![ranks](https://github.com/AflaxCade/Django-Social-Website/blob/main/Snapshots/Images%20ranking.png)
 
 # Note
 
