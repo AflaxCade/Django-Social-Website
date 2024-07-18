@@ -153,14 +153,10 @@ AUTHENTICATION_BACKENDS = [
     'social_core.backends.github.GithubOAuth2',
 ]
 
-# Google API
-# ***REMOVED*** = '529674420223-7tubhdsrtjsmj80bq6f491jluajjhq9g.apps.googleusercontent.com' # Google Client ID
-# ***REMOVED*** = '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' # Google Client Secret
-
 
 # Google API
-***REMOVED*** = '' # Google Client ID
-***REMOVED*** = '' # Google Client Secret
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '' # Google Client ID
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '' # Google Client Secret
 
 # Twitter API
 SOCIAL_AUTH_TWITTER_KEY = '' # Twitter API Key

@@ -144,8 +144,8 @@ To enable social login functionality, you need to add your own API keys and secr
 
 ## Google API
 ```python
-***REMOVED*** = ''  # Google Client ID
-***REMOVED*** = ''  # Google Client Secret
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = ''  # Google Client ID
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = ''  # Google Client Secret
 ```
 
 ## Twitter API
