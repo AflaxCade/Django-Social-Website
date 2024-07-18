@@ -126,3 +126,36 @@ docker run -it --rm --name redis -p 6379:6379 redis
 ## Application Snapshots
 
 ![Django Chartjs Snapshot](https://github.com/AflaxCade/Django-with-chart.js/blob/main/Screenshot%201.png)
+
+# Note
+
+To enable social login functionality, you need to add your own API keys and secrets for Google, Twitter, and GitHub in the `settings.py` file. These values are currently set as empty strings:
+
+## Google API
+```python
+***REMOVED*** = ''  # Google Client ID
+***REMOVED*** = ''  # Google Client Secret
+```
+
+## Twitter API
+```python
+SOCIAL_AUTH_TWITTER_KEY = ''  # Google Client ID
+SOCIAL_AUTH_TWITTER_SECRET = ''  # Google Client Secret
+```
+
+## GitHub API
+```python
+SOCIAL_AUTH_GITHUB_KEY = ''  # Google Client ID
+SOCIAL_AUTH_GITHUB_SECRET = ''  # Google Client Secret
+```
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any changes or additions.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+This project is based on the "Django 4 By Example, Fourth Edition" book by Antonio Mele. Special thanks to the author for providing such a comprehensive guide to building web applications with Django.
