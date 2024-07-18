@@ -159,16 +159,16 @@ AUTHENTICATION_BACKENDS = [
 
 
 # Google API
-***REMOVED*** = '544271079440-h7pjrq33g8kduraav2proec40fvick1p.apps.googleusercontent.com' # Google Client ID
-***REMOVED*** = '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' # Google Client Secret
+***REMOVED*** = '' # Google Client ID
+***REMOVED*** = '' # Google Client Secret
 
 # Twitter API
-SOCIAL_AUTH_TWITTER_KEY = 'XRH2s0K1h5loSYJ6Ja4PJrbX0' # Twitter API Key
-SOCIAL_AUTH_TWITTER_SECRET = 'JFlZJssHos79Tqr4zdwSmQp7NW4F08uZvzogVsQPm7phaJXXYz' # Twitter API Secret
+SOCIAL_AUTH_TWITTER_KEY = '' # Twitter API Key
+SOCIAL_AUTH_TWITTER_SECRET = '' # Twitter API Secret
 
 # Github API
-SOCIAL_AUTH_GITHUB_KEY = 'Ov23lizrAdje4MuWMRwl'
-SOCIAL_AUTH_GITHUB_SECRET = '9ee5f7844324fd125bac956ed41a5043808155f7'
+SOCIAL_AUTH_GITHUB_KEY = '' # Github Client ID
+SOCIAL_AUTH_GITHUB_SECRET = '' # Github Client Secret
 
 SOCIAL_AUTH_PIPELINE = [
     'social_core.pipeline.social_auth.social_details',
